@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.all-bg {
+    background: url("../public/homebg.jpg") no-repeat  center fixed;
+   
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+body{ margin: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
