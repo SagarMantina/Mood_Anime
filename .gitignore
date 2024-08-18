@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 # Ignore node_modules in both frontend and backend
 frontend/node_modules/
 backend/node_modules/
 node_modules
 #ignore env
 .env
-=======
-# Ignore environment variable files
-.env
->>>>>>> d736c86c3e0e33b3ec582ffe13727231ebacaf58
