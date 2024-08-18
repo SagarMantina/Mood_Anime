@@ -32,7 +32,6 @@ const HomePage = () => {
   return (
     <div className='bg-black min-h-screen text-white m-0'>
       <nav className="flex justify-center space-x-4">
-<<<<<<< HEAD
         <Link to='/'><p className='lg:text-3xl font-bold text-red-500 cursor-pointer sm:text-xl py-2'>ANIME MOOD</p></Link>
         <ul className='flex justify-center space-x-4 my-2 text-gray-400 text-md'>
           <li><Link to='/login'>Login</Link></li>
@@ -44,45 +43,24 @@ const HomePage = () => {
       <div>
          <p className='lg:text-2xl font-bold text-center sm:text-sm'>This Is Anime Mood Which Recommends Latest Or Popular Anime To the The Users Besides That It also Has Feature To Select Mood which Gives Anime Recommendation Based on The Selected Mood</p>
       </div>
-=======
-        <Link to='/'><p className='text-3xl font-bold text-red-500 cursor-pointer'>NAME</p></Link>
-        <ul className='flex justify-center space-x-4 my-2 text-gray-400 text-md'>
-          <li><Link to='/login'>Login</Link></li>
-          <li><Link to='/signup'>Signup</Link></li>
-          <li><Link to='/mood'>Mood Anime</Link></li>
-        </ul>
-      </nav>
-
->>>>>>> d736c86c3e0e33b3ec582ffe13727231ebacaf58
       <div className='my-8 lg:h-1/3 sm:h-1/4'>
         <div className='flex justify-center'>
           <h1 className='text-2xl font-bold text-red-500'>Airing</h1>
         </div>
-<<<<<<< HEAD
         <div className='lg:flex m-2 sm:grid grid-cols-3 grid'>
-=======
-        <div className='flex m-2'>
->>>>>>> d736c86c3e0e33b3ec582ffe13727231ebacaf58
           {airingAnime.map((anime) => (
             <Card key={anime.mal_id} data={anime} />
           ))}
         </div>
       </div>
 
-<<<<<<< HEAD
    
 
-=======
->>>>>>> d736c86c3e0e33b3ec582ffe13727231ebacaf58
       <div className='my-8 lg:h-1/3 sm:h-1/4'>
         <div className='flex justify-center'>
           <h1 className='text-2xl font-bold text-red-500'>Upcoming</h1>
         </div>
-<<<<<<< HEAD
         <div className='lg:flex m-2 sm:grid grid-cols-3 grid'>
-=======
-        <div className='flex m-2'>
->>>>>>> d736c86c3e0e33b3ec582ffe13727231ebacaf58
           {upcomingAnime.map((anime) => (
             <Card key={anime.mal_id} data={anime} />
           ))}
@@ -93,11 +71,7 @@ const HomePage = () => {
         <div className='flex justify-center'>
           <h1 className='text-2xl font-bold text-red-500'>Popular</h1>
         </div>
-<<<<<<< HEAD
         <div className='lg:flex m-2 sm:grid grid-cols-3 grid'>
-=======
-        <div className='flex m-2 '>
->>>>>>> d736c86c3e0e33b3ec582ffe13727231ebacaf58
           {popularAnime.map((anime) => (
             <Card key={anime.mal_id} data={anime} />
           ))}
